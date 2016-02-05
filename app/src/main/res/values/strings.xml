@@ -1,0 +1,25 @@
+<resources>
+	<string name="app_name">TemperatureReceiver</string>
+
+	<string name="connected">Connected</string>
+	<string name="disconnect">Disconnect</string>
+
+	<string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+	<string name="scan">Scan</string>
+	<string name="cancel">Cancel</string>
+	<string name="paired">paired</string>
+	<string name="select_device">Select a device</string>
+	<string name="scanning">Scanning for devices...</string>
+	<string name="permission_denied">Permission denied</string>
+	<string name="connect">Connect</string>
+	<string name="not_connected">Not Connected</string>
+	<string name="temperature_unknown">---°C</string>
+	<string name="bluetooth_is_not_available">Bluetooth is not available</string>
+	<string name="device_connected" formatted="false">%s - ready</string>
+	<string name="notification_temperature">Temperature: </string>
+	<string name="temperature_template">%.1f°C</string>
+	<string name="temperature_service_not_found">Temperature Service not found! Disconnecting.</string>
+	<string name="no_name_device">NoName device</string>
+	<string name="rssi_value">Rssi = </string>
+	<string name="device_connecting" formatted="false">%s - connecting</string>
+</resources>

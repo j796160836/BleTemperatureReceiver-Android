@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context="com.johnny.bletemperaturereceiver.MainActivity">
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+		<Button
+				android:id="@+id/btn_connect"
+				android:text="@string/connect"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+		<TextView
+				android:id="@+id/label_device_name"
+				android:layout_margin="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:text="@string/not_connected"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_centerInParent="true"
+			android:paddingBottom="45dp">
+
+		<TextView
+				android:id="@+id/label_temperature"
+				android:text="@string/temperature_unknown"
+				android:layout_gravity="center_horizontal"
+				android:textSize="80sp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"/>
+	</LinearLayout>
+</RelativeLayout>
